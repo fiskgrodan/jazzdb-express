@@ -43,12 +43,12 @@ class TaskModel extends jazzdb.Model {
 	}
 
 	toArray() {
-    return super.toArray();
+		return super.toArray();
 	}
 	
 	update(id, data) {
-    return super.update(id, data);
-  }
+		return super.update(id, data);
+	}
 }
 
 module.exports.TaskModel = TaskModel;
