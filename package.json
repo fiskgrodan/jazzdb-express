@@ -1,0 +1,23 @@
+{
+	"name": "jazzdb-express",
+	"version": "1.0.0",
+	"description": "test example",
+	"main": "server.js",
+	"scripts": {
+		"dev": "nodemon server.js",
+		"start": "node server.js"
+	},
+	"keywords": [
+		"jazzdb",
+		"express"
+	],
+	"author": "fiskgrodan",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"jazzdb": "^0.10.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2"
+	}
+}
